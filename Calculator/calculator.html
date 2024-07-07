@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+        <button onclick="flipCalc()" class="outerBtn" id="flipBtn">Flip</button>
+        <div id="calculator">
+            <input id="display" readonly>
+            <div id="keys">
+                <button onclick="appendToDisplay('+')" class="operator">+</button>
+                <button onclick="appendToDisplay('7')" class="number" id="7">7</button>
+                <button onclick="appendToDisplay('8')" class="number" id="8">8</button>
+                <button onclick="appendToDisplay('9')" class="number" id="9">9</button>
+                <button onclick="appendToDisplay('-')" class="operator">-</button>
+                <button onclick="appendToDisplay('4')" class="number" id="4">4</button>
+                <button onclick="appendToDisplay('5')" class="number" id="5">5</button>
+                <button onclick="appendToDisplay('6')" class="number" id="6">6</button>
+                <button onclick="appendToDisplay('*')" class="operator">*</button>
+                <button onclick="appendToDisplay('1')" class="number" id="1">1</button>
+                <button onclick="appendToDisplay('2')" class="number" id="2">2</button>
+                <button onclick="appendToDisplay('3')" class="number" id="3">3</button>
+                <button onclick="appendToDisplay('/')" class="operator">/</button>
+                <button onclick="appendToDisplay('0')" class="number" id="0">0</button>
+                <button onclick="appendToDisplay('.')">.</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="clearDisplay()" class="operator" id="clear">C</button>
+                <button onclick="evenRemove()" id="special1" class="special">E</button>
+                <button onclick="oddRemove()" id="special2" class="special">O</button>
+                <button onclick="reset()" id="special3" class="special">R</button>
+            </div>
+            <button id="back" class="back" draggable="false">
+                <div onclick="unscrew('1')" class="bolt" id="bolt1"><p id="bolthead1">+</p></div>
+                <div onclick="unscrew('2')" class="bolt" id="bolt2"><p id="bolthead2">+</p></div>
+            </button>
+            <div class="batterySpot" id="batterySpot">
+                <div id="spring1"></div>
+                <div id="spring2"></div>
+            </div>
+        </div>
+        <button onclick="getBatteries()" class="outerBtn" id="batteryBtn">Batteries</button>
+        <div onmouseenter="moveBatteries()" id="batteriesdiv" class="batteriesdiv" draggable="true">
+            <div class="batteries" id="battery1">
+                <div class="logo"><div class="pin"></div></div>
+            </div>
+            <div class="batteries" id="battery2">
+                <div class="logo"><div class="pin"></div></div>
+            </div>
+        </div>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>
