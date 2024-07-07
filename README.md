@@ -2,7 +2,7 @@
 
 
 <h2>Description</h2>
-I made basic calculator and added some extra funcitons to it. It can disable even and/or odd numbers on the calculator. Then I made it so that it originally starts off not working. There are no batteries in it, and you need to put the batteries in the calculator by flipping it over and unscrewing the backside. Once they are in, the calculator functions normally. 
+I made a basic calculator and added some extra funcitons to it. It can disable even and/or odd numbers on the calculator. Then I made it so that it originally starts off not working. There are no batteries in it, and you need to put the batteries in the calculator by flipping it over and unscrewing the backside. Once they are in, the calculator functions normally. 
 <br />
 
 
