@@ -20,3 +20,8 @@ I took a basic calculator and started by adding some extra funcitons to it. It c
 <h2>Here is a video demonstration:</h2>
 
 https://go.screenpal.com/watch/cZiinVV85hg
+
+<h3>Here is a photo:</h3>
+
+![deadbattery](https://github.com/NoahDBaldwin/Dead-Calculator/assets/158852353/f54f9b6f-0bc5-4add-9a9c-791be5630872)
+
